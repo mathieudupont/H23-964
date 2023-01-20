@@ -1,1 +1,552 @@
-allo
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>H23-964</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    </head>
+
+<body>
+
+<div class="w3-bar w3-dark-gray w3-xlarge">
+  <a href="#" class="w3-bar-item w3-button w3-mobile" style="width:25%">H23-964</a>
+  <a href="#" class="w3-bar-item w3-button w3-mobile" style="width:50%">Programmation serveur et bases de données</a>
+  <a href="https://mathieudupont.github.io/cours" class="w3-bar-item w3-button w3-mobile" style="width:25%">cours</a>
+</div>
+
+<br>
+
+<div class="w3-container">
+    <div class="w3-bar w3-light-grey">
+        <div class="w3-dropdown-hover">
+            <button class="w3-button w3-dark-grey">Cégep</button>
+            <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                <a target="_blank" href="https://www.cegepmontpetit.ca" class="w3-bar-item w3-button">Accueil</a>
+                <a target="_blank" href="https://www.cegepmontpetit.ca/campus/a-propos-du-campus-de-longueuil/plans" class="w3-bar-item w3-button">Plans du cégep</a>
+                <a target="_blank" href="https://mareussite.cegepmontpetit.ca/cegep/" class="w3-bar-item w3-button">Ma réussite au cégep</a>
+                <a target="_blank" href="https://info.cegepmontpetit.ca" class="w3-bar-item w3-button">Département d'informatique</a>
+            </div>
+        </div>
+        <a target="_blank" href="https://mareussite.cegepmontpetit.ca/cegep/services-du-cegep/" class="w3-bar-item w3-button w3-blue">Services du cégep</a>
+        <div class="w3-dropdown-hover">
+            <button class="w3-button w3-red">Plagiat</button>
+            <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                <a target="_blank" href="https://departement-info-cem.github.io/plagiat" class="w3-bar-item w3-button">Cheat sheet!</a>
+                <a target="_blank" href="https://mathieudupont.github.io/cours/docs/Integrite-intellectuelle-Aide-memoire-2020-09-30.pdf" class="w3-bar-item w3-button">Qu'est-ce que le plagiat?</a>
+                <a target="_blank" href="https://mathieudupont.github.io/cours/docs/Integrite-intellectuelle-Quiz-V3.pdf" class="w3-bar-item w3-button">Quiz plagiat</a>
+            </div>
+        </div>
+        <a target="_blank" href="https://www.cegepmontpetit.ca/static/uploaded/Files/Cegep/Liens%20eclair/Calendrier-2022-23---Revise---2022-09-22.pdf" class="w3-bar-item w3-button w3-dark-grey">Calendrier</a>
+        <a target="_blank" href="https://cegepmontpetit.omnivox.ca" class="w3-bar-item w3-button w3-orange">Omnivox</a>
+        <a href="PC_2023H_420-964-EM.pdf" target="_blank" class="w3-bar-item w3-button w3-dark-grey">Plan de cours</a>
+        <div class="w3-dropdown-hover">
+            <button class="w3-button w3-green">Aide</button>
+            <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                <a target="_blank" href="https://mareussite.cegepmontpetit.ca/cegep/mes-ressources/soutien-aux-apprentissages/centre-de-services-adaptes/" class="w3-bar-item w3-button">Centre de services adaptés (CSA)</a>
+                <a target="_blank" href="https://mareussite.cegepmontpetit.ca/cegep/mes-ressources/soutien-aux-apprentissages/tutorat-par-les-pairs/" class="w3-bar-item w3-button">Tutorat par les pairs</a>
+                <a target="_blank" href="https://hub.dectim.ca/faucon/" class="w3-bar-item w3-button">Faucon/Paire</a>
+            </div>
+        </div>
+        <a target="_blank" href="https://dectim.ca" class="w3-bar-item w3-button w3-dark-grey">TIM</a>
+        <a target="_blank" href="https://fr-ca.wordpress.org/download/#download-install" class="w3-bar-item w3-button w3-blue">WordPress</a>
+        <a target="_blank" href="https://dectim.ca/cpanel" class="w3-bar-item w3-button w3-orange">cPanel</a>
+        <!-- <div class="w3-dropdown-hover">
+            <button class="w3-button w3-blue">WP functions</button>
+            <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                <a target="_blank" href="https://developer.wordpress.org/reference/functions/bloginfo/" class="w3-bar-item w3-button"><code>bloginfo()</code></a>
+                <a target="_blank" href="https://developer.wordpress.org/reference/functions/have_posts/" class="w3-bar-item w3-button"><code>have_posts()</code></a>
+                <a target="_blank" href="https://developer.wordpress.org/reference/functions/the_post/" class="w3-bar-item w3-button"><code>the_post()</code></a>
+                <a target="_blank" href="https://developer.wordpress.org/reference/functions/wp_title/" class="w3-bar-item w3-button"><code>wp_title()</code></a>
+            </div>
+        </div> -->
+        <div class="w3-dropdown-hover">
+            <button class="w3-button w3-blue">Doc</button>
+            <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                <a target="_blank" href="https://generatewp.com/post-type/" class="w3-bar-item w3-button">generateWP</a>
+                <a target="_blank" href="https://www.php.net/docs.php" class="w3-bar-item w3-button">PHP</a>
+                <a target="_blank" href="https://www.advancedcustomfields.com/resources/" class="w3-bar-item w3-button">ACF</a>
+                <a target="_blank" href="https://fullsiteediting.com/block-reference" class="w3-bar-item w3-button">Blocs WordPress</a>
+                <a target="_blank" href="https://www.w3schools.com/php/default.asp" class="w3-bar-item w3-button">W3schools</a>
+                <a target="_blank" href="https://resources.jetbrains.com/storage/products/phpstorm/docs/PhpStorm_ReferenceCard.pdf" class="w3-bar-item w3-button">Raccourcis PhpStorm</a>
+                <a target="_blank" href="https://docs.emmet.io/cheat-sheet/" class="w3-bar-item w3-button">Raccourcis Emmet</a>
+            </div>
+        </div>
+        <a target="_blank" href="https://www.cegepmontpetit.ca/cegep/urgence" class="w3-bar-item w3-button w3-red">Urgence</a>
+    </div>
+</div>
+
+<br>
+
+<div class="w3-container">
+
+    <button onclick="accordeon('sem1')" class="w3-button w3-block w3-left-align w3-dark-gray">Semaine 1</button>
+    <div id="sem1" class="w3-container w3-hide">
+
+        <div class="w3-panel w3-round w3-border">
+            <div class="w3-container w3-cell w3-cell-middle">
+                <p><b>Théorie : </b></p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+                <a href="semaine_1/420-964-EM_semaine01_theorie.pdf" class="w3-button w3-blue w3-round" target="_blank">Théorie</a>
+            </div>
+        </div>
+
+        <div class="w3-panel w3-round w3-border">
+            <div class="w3-container w3-cell w3-cell-middle">
+                <p><b>Pratique : </b></p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+                <a href="semaine_1/420-964-EM_semaine01_exercices_enonce.pdf" target="_blank" class="w3-button w3-blue w3-round">Énoncé</a>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+                <a href="semaine_1/420-964-EM_semaine01_exercice1.zip" target="_blank" class="w3-button w3-orange w3-round">Matériel - exercice 1</a>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+                <a href="semaine_1/420-964-EM_semaine01_exercice2.zip" target="_blank" class="w3-button w3-orange w3-round">Matériel - exercice 2</a>
+            </div>
+        </div>
+
+        <div class="w3-panel w3-round w3-border">
+            <div class="w3-container w3-cell w3-cell-middle">
+                <p><b>FileZilla : </b></p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+                <a href="semaine_1/FileZilla.pdf" target="_blank" class="w3-button w3-dark-gray w3-round">FileZilla</a>
+            </div>
+        </div>
+
+    </div>
+
+    <button onclick="accordeon('sem2')" class="w3-button w3-block w3-left-align w3-dark-gray">Semaine 2</button>
+    <div id="sem2" class="w3-container w3-hide">
+
+        <div class="w3-panel w3-round w3-border">
+            <div class="w3-container w3-cell w3-cell-middle">
+                <p><b>Théorie : </b></p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+                <a href="semaine_2/420-964-EM_semaine02_theorie.pdf" class="w3-button w3-blue w3-round" target="_blank">Théorie</a>
+            </div>
+        </div>
+
+        <div class="w3-panel w3-round w3-border">
+            <div class="w3-container w3-cell w3-cell-middle">
+                <p><b>Pratique : </b></p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+                <a href="semaine_2/420-964-EM_semaine02_exercices_enonce.pdf" target="_blank" class="w3-button w3-blue w3-round">Énoncé</a>
+            </div>
+        </div>
+
+    </div>
+
+    <button onclick="accordeon('sem3')" class="w3-button w3-block w3-left-align w3-dark-gray">Semaine 3</button>
+    <div id="sem3" class="w3-container w3-hide">
+
+        <div class="w3-panel w3-round w3-border">
+            <div class="w3-container w3-cell w3-cell-middle">
+                <p><b>Théorie : </b></p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+                <a href="semaine_3/420-964-EM_semaine03_theorie.pdf" class="w3-button w3-blue w3-round" target="_blank">Théorie</a>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- <button onclick="accordeon('tp1')" class="w3-button w3-block w3-left-align w3-dark-gray"><b>TP 1 - 20% - remise avant le 26 février 2022</b></button>
+    <div id="tp1" class="w3-container w3-hide">
+
+        <div class="w3-panel w3-round w3-border">
+            <div class="w3-container w3-cell w3-cell-middle">
+                <p><b>Énoncé : </b></p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+                <a href="tp_1/420-964-EM_TP1_enonce.pdf" class="w3-button w3-blue w3-round" target="_blank">Énoncé</a>
+            </div>
+        </div>
+
+        <div class="w3-panel w3-round w3-border">
+            <div class="w3-container w3-cell w3-cell-middle">
+                <p><b>Évaluation : </b></p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+                <a href="tp_1/420-964-EM_TP1_grille_correction.pdf" class="w3-button w3-blue w3-round" target="_blank">Grille de correction</a>
+            </div>
+        </div>
+
+    </div> -->
+
+    <button onclick="accordeon('sem4')" class="w3-button w3-block w3-left-align w3-dark-gray">Semaine 4</button>
+    <div id="sem4" class="w3-container w3-hide">
+
+        <div class="w3-panel w3-round w3-border">
+            <div class="w3-container w3-cell w3-cell-middle">
+                <p><b>Théorie : </b></p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+                <a href="semaine_4/420-964-EM_semaine04_theorie.pdf" class="w3-button w3-blue w3-round" target="_blank">Théorie</a>
+            </div>
+        </div>
+
+        <div class="w3-panel w3-round w3-border">
+            <div class="w3-container w3-cell w3-cell-middle">
+                <p><b>Gravity Forms : </b></p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+                <a href="semaine_4/gravityforms_2.4.22.5.zip" class="w3-button w3-orange w3-round" target="_blank">Zip de l'extension</a>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+                <a href="https://www.gplvault.com/bypass-gravity-forms-license/" class="w3-button w3-dark-gray w3-round" target="_blank">Instructions pour l'activation</a>
+            </div>
+        </div>
+
+    </div>
+
+    <button onclick="accordeon('sem5')" class="w3-button w3-block w3-left-align w3-dark-gray">Semaine 5 - Thème - part I</button>
+    <div id="sem5" class="w3-container w3-hide">
+
+        <div class="w3-panel w3-round w3-border">
+            <div class="w3-container w3-cell w3-cell-middle">
+                <p><b>Théorie : </b></p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+                <a href="semaine_5/420-964-EM_semaine05_theorie.pdf" class="w3-button w3-blue w3-round" target="_blank">Théorie</a>
+            </div>
+        </div>
+
+        <div class="w3-panel w3-round w3-border">
+            <div class="w3-container w3-cell w3-cell-middle">
+                <p><b>Pratique : </b></p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+                <a href="semaine_5/420-964-EM_semaine05_exercice_enonce.pdf" target="_blank" class="w3-button w3-blue w3-round">Énoncé</a>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+                <a href="semaine_5/420-964-EM_semaine05_exercice_materiel.zip" target="_blank" class="w3-button w3-orange w3-round">Matériel</a>
+            </div>
+        </div>
+
+    </div>
+
+    <button onclick="accordeon('sem6')" class="w3-button w3-block w3-left-align w3-dark-gray">Semaine 6 - Thème - part II</button>
+    <div id="sem6" class="w3-container w3-hide">
+
+        <div class="w3-panel w3-round w3-border">
+            <div class="w3-container w3-cell w3-cell-middle">
+                <p><b>Théorie : </b></p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+                <a href="semaine_6/420-964-EM_semaine06_theorie.pdf" class="w3-button w3-blue w3-round" target="_blank">Théorie</a>
+            </div>
+        </div>
+
+        <div class="w3-panel w3-round w3-border">
+            <div class="w3-container w3-cell w3-cell-middle">
+                <p><b>Pratique : </b></p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+                <a href="semaine_6/420-964-EM_semaine06_exercice_enonce.pdf" target="_blank" class="w3-button w3-blue w3-round">Énoncé</a>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+                <a href="semaine_6/420-964-EM_semaine06_exercice_materiel.zip" target="_blank" class="w3-button w3-orange w3-round">Matériel</a>
+            </div>
+        </div>
+
+    </div>
+
+    <button onclick="accordeon('sem7')" class="w3-button w3-block w3-left-align w3-dark-gray">Semaine 7 - Hiérarchie des gabarits</button>
+    <div id="sem7" class="w3-container w3-hide">
+
+        <div class="w3-panel w3-round w3-border">
+            <div class="w3-container w3-cell w3-cell-middle">
+                <p><b>Théorie : </b></p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+                <a href="semaine_7/420-964-EM_semaine07_theorie.pdf" class="w3-button w3-blue w3-round" target="_blank">Théorie</a>
+            </div>
+        </div>
+
+        <div class="w3-panel w3-round w3-border">
+            <div class="w3-container w3-cell w3-cell-middle">
+                <p><b>Pratique : </b></p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+                <a href="semaine_7/420-964-EM_semaine07_exercice_enonce.pdf" target="_blank" class="w3-button w3-blue w3-round">Énoncé</a>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+                <a href="semaine_7/420-964-EM_semaine07_exercice_materiel.zip" target="_blank" class="w3-button w3-orange w3-round">Matériel</a>
+            </div>
+        </div>
+
+    </div>
+
+    <button class="w3-button w3-block w3-left-align w3-white"><b>Semaine de lecture</b></button>
+
+    <button onclick="accordeon('sem8')" class="w3-button w3-block w3-left-align w3-dark-gray">Semaine 8 - <b>EXAMEN - 20%</b></button>
+    <div id="sem8" class="w3-container w3-hide">
+
+        <h4>Ce qu’il faut savoir faire :</h4>
+        <ul>
+            <li>
+                Créer un site WordPress de A à Z (base de données, etc.) à une adresse précise, par exemple :<br>
+                <a href="">https://utilisateur.dectim.ca/cours/wp/adresse/du/site</a>
+            </li>
+            <li>
+                Configurer des réglages du site
+            </li>
+            <li>
+                Entrer du contenu
+            </li>
+            <li>
+                Créer et activer un thème à partir de zéro, comprenant :
+                <ul>
+                    <li>des gabarits</li>
+                    <li>des fichiers d’inclusion</li>
+                    <li>du style CSS</li>
+                </ul>
+            </li>
+        </ul>
+
+    </div>
+
+    <button onclick="accordeon('sem9')" class="w3-button w3-block w3-left-align w3-dark-gray">Semaine 9 - CPT</button>
+    <div id="sem9" class="w3-container w3-hide">
+
+        <div class="w3-panel w3-round w3-border">
+            <div class="w3-container w3-cell w3-cell-middle">
+                <p><b>Théorie : </b></p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+                <a href="semaine_9/420-964-EM_semaine09_theorie.pdf" class="w3-button w3-blue w3-round" target="_blank">Théorie</a>
+            </div>
+        </div>
+
+        <div class="w3-panel w3-round w3-border">
+            <div class="w3-container w3-cell w3-cell-middle">
+                <p><b>Pratique : </b></p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+                <a href="semaine_9/420-964-EM_semaine09_exercice_enonce.pdf" target="_blank" class="w3-button w3-blue w3-round">Énoncé</a>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+                <a href="semaine_9/420-964-EM_semaine09_exercice_materiel.zip" target="_blank" class="w3-button w3-orange w3-round">Matériel</a>
+            </div>
+        </div>
+
+    </div>
+
+    <button onclick="accordeon('sem10')" class="w3-button w3-block w3-left-align w3-dark-gray">Semaine 10 - Thème et CPT - version PHP</button>
+    <div id="sem10" class="w3-container w3-hide">
+
+        <div class="w3-panel w3-round w3-border">
+            <div class="w3-container w3-cell w3-cell-middle">
+                <p><b>Théorie : </b></p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+                <a href="semaine_10/420-964-EM_semaine10_theorie.pdf" class="w3-button w3-blue w3-round" target="_blank">Théorie</a>
+            </div>
+        </div>
+
+        <div class="w3-panel w3-round w3-border">
+            <div class="w3-container w3-cell w3-cell-middle">
+                <p><b>Pratique : </b></p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+                <a href="semaine_10/420-964-EM_semaine10_exercice_enonce.pdf" target="_blank" class="w3-button w3-blue w3-round">Énoncé</a>
+                <br>
+                <br>
+                <a href="semaine_10/420-964-EM_semaine10_exercice_materiel.zip" target="_blank" class="w3-button w3-orange w3-round">Matériel</a>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+                <p class="w3-lime w3-center">partie 1</p>
+                <p><iframe src="https://youtube.com/embed/WrUM2_8G-j8" allowfullscreen></iframe></p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+                <p class="w3-lime w3-center">partie 2</p>
+                <p><iframe src="https://youtube.com/embed/08HSG7_W9SI" allowfullscreen></iframe></p>
+            </div>
+        </div>
+
+    </div>
+
+    <button onclick="accordeon('sem11')" class="w3-button w3-block w3-left-align w3-dark-gray">Semaine 11 - ACF - part I</button>
+    <div id="sem11" class="w3-container w3-hide">
+
+        <div class="w3-panel w3-round w3-border">
+            <div class="w3-container w3-cell w3-cell-middle">
+                <p><b>Théorie : </b></p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+                <a href="semaine_11/420-964-EM_semaine11_theorie.pdf" class="w3-button w3-blue w3-round" target="_blank">Théorie</a>
+            </div>
+        </div>
+
+        <div class="w3-panel w3-round w3-border">
+            <div class="w3-container w3-cell w3-cell-middle">
+                <p><b>Pratique : </b></p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+                <a href="semaine_11/420-964-EM_semaine11_exercice_enonce.pdf" target="_blank" class="w3-button w3-blue w3-round">Énoncé</a>
+                <br>
+                <br>
+                <a href="semaine_11/420-964-EM_semaine11_exercice_materiel.zip" target="_blank" class="w3-button w3-orange w3-round">Matériel</a>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+                <p class="w3-lime w3-center">1 - CPT Acteur</p>
+                <p><iframe src="https://youtube.com/embed/uGpVxroH1nQ" allowfullscreen></iframe></p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+                <p class="w3-lime w3-center">2 - CPT Film</p>
+                <p><iframe src="https://youtube.com/embed/CiT0vZtdVG0" allowfullscreen></iframe></p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+                <p class="w3-lime w3-center">3 - CPT Film (suite)</p>
+                <p><iframe src="https://youtube.com/embed/V8I7eAK7hEg" allowfullscreen></iframe></p>
+            </div>
+        </div>
+
+    </div>
+
+    <button onclick="accordeon('sem12')" class="w3-button w3-block w3-left-align w3-dark-gray">Semaine 12 - ACF - part II</button>
+    <div id="sem12" class="w3-container w3-hide">
+
+        <div class="w3-panel w3-round w3-border">
+            <div class="w3-container w3-cell w3-cell-middle">
+                <p><b>Théorie : </b></p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+                <a href="semaine_12/420-964-EM_semaine12_theorie.pdf" class="w3-button w3-blue w3-round" target="_blank">Théorie</a>
+            </div>
+        </div>
+
+        <div class="w3-panel w3-round w3-border">
+            <div class="w3-container w3-cell w3-cell-middle">
+                <p><b>Pratique : </b></p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+                <a href="semaine_12/420-964-EM_semaine12_exercice_enonce.pdf" target="_blank" class="w3-button w3-blue w3-round">Énoncé</a>
+                <br>
+                <br>
+                <a href="semaine_12/420-964-EM_semaine12_exercice_materiel.zip" target="_blank" class="w3-button w3-orange w3-round">Matériel</a>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+                <p class="w3-lime w3-center">1 - répéteur</p>
+                <p><iframe src="https://youtube.com/embed/kjnyslvPH6w" allowfullscreen></iframe></p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+                <p class="w3-lime w3-center">2 - contenu flexible</p>
+                <p><iframe src="https://youtube.com/embed/jtWA-YCo8NA" allowfullscreen></iframe></p>
+            </div>
+        </div>
+
+    </div>
+
+    <button onclick="accordeon('sem13')" class="w3-button w3-block w3-left-align w3-dark-gray">Semaine 13 - ACF - part III</button>
+    <div id="sem13" class="w3-container w3-hide">
+
+        <div class="w3-panel w3-round w3-border">
+            <div class="w3-container w3-cell w3-cell-middle">
+                <p><b>Théorie : </b></p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+                <a href="semaine_13/420-964-EM_semaine13_theorie.pdf" class="w3-button w3-blue w3-round" target="_blank">Théorie</a>
+            </div>
+        </div>
+
+        <div class="w3-panel w3-round w3-border">
+            <div class="w3-container w3-cell w3-cell-middle">
+                <p><b>Pratique : </b></p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+                <a href="semaine_13/420-964-EM_semaine13_exercice_enonce.pdf" target="_blank" class="w3-button w3-blue w3-round">Énoncé</a>
+                <br>
+                <br>
+                <a href="semaine_13/420-964-EM_semaine13_exercice_materiel.zip" target="_blank" class="w3-button w3-orange w3-round">Matériel</a>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+                <p class="w3-lime w3-center">1 - relation</p>
+                <p><iframe src="https://youtube.com/embed/A6JJHECPc5c" allowfullscreen></iframe></p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+                <p class="w3-lime w3-center">2 - page d'options</p>
+                <p><iframe src="https://youtube.com/embed/9--qd7aLn_Q" allowfullscreen></iframe></p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+                <p class="w3-lime w3-center">3 - horaire des films</p>
+                <p><iframe src="https://youtube.com/embed/ZUjA6mGhYKk" allowfullscreen></iframe></p>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- <button onclick="accordeon('tp2')" class="w3-button w3-block w3-left-align w3-dark-gray"><b>TP 2 - 40% - remise 1 (10%) avant le 14 mai 2022 -  remise 2 (30%) avant le 30 mai 2022 </b></button>
+    <div id="tp2" class="w3-container w3-hide">
+
+        <div class="w3-panel w3-round w3-border">
+            <div class="w3-container w3-cell w3-cell-middle">
+                <p><b>Matériel : </b>sur LÉA</p>
+            </div>
+        </div>
+        <div class="w3-panel w3-round w3-border">
+            <div class="w3-container w3-cell w3-cell-middle">
+                <p><b>Astuces pour le TP 2 : </b></p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+                <p><iframe src="https://youtube.com/embed/9-bI25W-w4w" allowfullscreen></iframe></p>
+            </div>
+        </div>
+
+    </div> -->
+
+    <button onclick="accordeon('sem14')" class="w3-button w3-block w3-left-align w3-dark-gray">Semaine 14 - Les étapes pour un bon TP 2</button>
+    <div id="sem14" class="w3-container w3-hide">
+
+        <div class="w3-panel w3-round w3-border">
+            <div class="w3-container w3-cell w3-cell-middle">
+                <p><b>Théorie : </b></p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+                <a href="semaine_14/420-964-EM_semaine14_theorie.pdf" class="w3-button w3-blue w3-round" target="_blank">Théorie</a>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- <button onclick="accordeon('ex2')" class="w3-button w3-block w3-left-align w3-dark-gray"><b>EXAMEN 2 - 20% - 19 mai 2022 à 12h00</b></button>
+    <div id="ex2" class="w3-container w3-hide">
+
+        <img src="examen_2/1.png" style="width:50%">
+        <img src="examen_2/2.png" style="width:50%">
+        <img src="examen_2/3.png" style="width:50%">
+        <img src="examen_2/4.png" style="width:50%">
+
+    </div> -->
+
+    <button onclick="accordeon('sem15')" class="w3-button w3-block w3-left-align w3-dark-gray">Semaine 15</button>
+    <!-- <div id="sem15" class="w3-container w3-hide">
+    </div>
+
+    <br> -->
+
+</div>
+
+<script src="https://www.w3schools.com/lib/w3codecolor.js"></script>
+<script>
+    w3CodeColor();
+</script>
+
+<script>
+function accordeon(id) {
+  let x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html> 
