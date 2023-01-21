@@ -10,15 +10,15 @@
 <body>
 
 <div class="w3-bar w3-dark-gray w3-xlarge">
-  <a href="#" class="w3-bar-item w3-button w3-mobile" style="width:25%">H23-964</a>
-  <a href="#" class="w3-bar-item w3-button w3-mobile" style="width:50%">Programmation serveur et bases de données</a>
+  <a href="#" class="w3-bar-item w3-button w3-mobile w3-hover-dark-gray" style="width:25%">H23-964</a>
+  <a href="#" class="w3-bar-item w3-button w3-mobile w3-hover-dark-gray" style="width:50%">Programmation serveur et bases de données</a>
   <a href="https://mathieudupont.github.io/cours" class="w3-bar-item w3-button w3-mobile" style="width:25%">cours</a>
 </div>
 
-<br>
+<!-- <br> -->
 
-<div class="w3-container">
-    <div class="w3-bar w3-light-grey">
+<div class="w3-container w3-center w3-padding-16">
+    <div class="w3-bar">
         <div class="w3-dropdown-hover">
             <button class="w3-button w3-dark-grey">Cégep</button>
             <div class="w3-dropdown-content w3-bar-block w3-card-4">
@@ -37,7 +37,8 @@
                 <a target="_blank" href="https://mathieudupont.github.io/cours/docs/Integrite-intellectuelle-Quiz-V3.pdf" class="w3-bar-item w3-button">Quiz plagiat</a>
             </div>
         </div>
-        <a target="_blank" href="https://www.cegepmontpetit.ca/static/uploaded/Files/Cegep/Liens%20eclair/Calendrier-2022-23---Revise---2022-09-22.pdf" class="w3-bar-item w3-button w3-dark-grey">Calendrier</a>
+        <a target="_blank" href="Calendrier-2022-23.pdf" class="w3-bar-item w3-button w3-dark-grey">Calendrier</a>
+        <a onclick="accordeon('grille')" class="w3-bar-item w3-button w3-blue">Grille</a>
         <a target="_blank" href="https://cegepmontpetit.omnivox.ca" class="w3-bar-item w3-button w3-orange">Omnivox</a>
         <a href="PC_2023H_420-964-EM.pdf" target="_blank" class="w3-bar-item w3-button w3-dark-grey">Plan de cours</a>
         <div class="w3-dropdown-hover">
@@ -74,13 +75,26 @@
         </div>
         <a target="_blank" href="https://www.cegepmontpetit.ca/cegep/urgence" class="w3-bar-item w3-button w3-red">Urgence</a>
     </div>
+
+    <div id="grille" class="w3-container w3-hide">
+    	<!-- <br> -->
+        <table class="w3-table-all w3-card-4">
+        	<tr class="w3-black"><th colspan="2" class="w3-center">Grille d'évaluation des exercices</th></tr>
+        	<tr class="w3-red"><th>0 / 5</th><td>pas fait</td></tr>
+        	<tr class="w3-orange"><th>1 / 5</th><td>commencé</td></tr>
+        	<tr class="w3-amber"><th>2 / 5</th><td>commencé mais certaines choses n'ont pas été faites</td></tr>
+        	<tr class="w3-lime"><th>3 / 5</th><td>ne fonctionne pas parfaitement</td></tr>
+        	<tr class="w3-light-green"><th>4 / 5</th><td>marche bien mais au moins un détail ne fonctionne pas parfaitement</td></tr>
+        	<tr class="w3-green"><th>5 / 5</th><td>tout fonctionne parfaitement</td></tr>
+		</table>
+    </div>
 </div>
 
-<br>
+<!-- <br> -->
 
 <div class="w3-container">
 
-    <button onclick="accordeon('sem1')" class="w3-button w3-block w3-left-align w3-dark-gray">Semaine 1</button>
+    <button onclick="accordeon('sem1')" class="w3-button w3-block w3-left-align w3-indigo">Semaine 1 - Intro à WordPress, retour sur conception Web</button>
     <div id="sem1" class="w3-container w3-hide">
 
         <div class="w3-panel w3-round w3-border">
@@ -118,7 +132,7 @@
 
     </div>
 
-    <button onclick="accordeon('sem2')" class="w3-button w3-block w3-left-align w3-dark-gray">Semaine 2</button>
+    <button onclick="accordeon('sem2')" class="w3-button w3-block w3-left-align w3-indigo">Semaine 2 - Intsllation de WordPress, tour de l'interface, premier blog</button>
     <div id="sem2" class="w3-container w3-hide">
 
         <div class="w3-panel w3-round w3-border">
@@ -141,7 +155,7 @@
 
     </div>
 
-    <button onclick="accordeon('sem3')" class="w3-button w3-block w3-left-align w3-dark-gray">Semaine 3</button>
+    <!-- <button onclick="accordeon('sem3')" class="w3-button w3-block w3-left-align w3-dark-gray">Semaine 3</button>
     <div id="sem3" class="w3-container w3-hide">
 
         <div class="w3-panel w3-round w3-border">
@@ -153,32 +167,9 @@
             </div>
         </div>
 
-    </div>
-
-    <!-- <button onclick="accordeon('tp1')" class="w3-button w3-block w3-left-align w3-dark-gray"><b>TP 1 - 20% - remise avant le 26 février 2022</b></button>
-    <div id="tp1" class="w3-container w3-hide">
-
-        <div class="w3-panel w3-round w3-border">
-            <div class="w3-container w3-cell w3-cell-middle">
-                <p><b>Énoncé : </b></p>
-            </div>
-            <div class="w3-container w3-cell w3-cell-middle">
-                <a href="tp_1/420-964-EM_TP1_enonce.pdf" class="w3-button w3-blue w3-round" target="_blank">Énoncé</a>
-            </div>
-        </div>
-
-        <div class="w3-panel w3-round w3-border">
-            <div class="w3-container w3-cell w3-cell-middle">
-                <p><b>Évaluation : </b></p>
-            </div>
-            <div class="w3-container w3-cell w3-cell-middle">
-                <a href="tp_1/420-964-EM_TP1_grille_correction.pdf" class="w3-button w3-blue w3-round" target="_blank">Grille de correction</a>
-            </div>
-        </div>
-
     </div> -->
 
-    <button onclick="accordeon('sem4')" class="w3-button w3-block w3-left-align w3-dark-gray">Semaine 4</button>
+    <button onclick="accordeon('sem4')" class="w3-button w3-block w3-left-align w3-indigo">Semaine 3</button>
     <div id="sem4" class="w3-container w3-hide">
 
         <div class="w3-panel w3-round w3-border">
@@ -204,7 +195,7 @@
 
     </div>
 
-    <button onclick="accordeon('sem5')" class="w3-button w3-block w3-left-align w3-dark-gray">Semaine 5 - Thème - part I</button>
+    <button onclick="accordeon('sem5')" class="w3-button w3-block w3-left-align w3-blue">Semaine 4 - Thème - part I</button>
     <div id="sem5" class="w3-container w3-hide">
 
         <div class="w3-panel w3-round w3-border">
@@ -230,7 +221,7 @@
 
     </div>
 
-    <button onclick="accordeon('sem6')" class="w3-button w3-block w3-left-align w3-dark-gray">Semaine 6 - Thème - part II</button>
+    <button onclick="accordeon('sem6')" class="w3-button w3-block w3-left-align w3-blue">Semaine 5 - Thème - part II</button>
     <div id="sem6" class="w3-container w3-hide">
 
         <div class="w3-panel w3-round w3-border">
@@ -256,7 +247,7 @@
 
     </div>
 
-    <button onclick="accordeon('sem7')" class="w3-button w3-block w3-left-align w3-dark-gray">Semaine 7 - Hiérarchie des gabarits</button>
+    <button onclick="accordeon('sem7')" class="w3-button w3-block w3-left-align w3-light-blue">Semaine 6 - Hiérarchie des gabarits</button>
     <div id="sem7" class="w3-container w3-hide">
 
         <div class="w3-panel w3-round w3-border">
@@ -282,36 +273,7 @@
 
     </div>
 
-    <button class="w3-button w3-block w3-left-align w3-white"><b>Semaine de lecture</b></button>
-
-    <button onclick="accordeon('sem8')" class="w3-button w3-block w3-left-align w3-dark-gray">Semaine 8 - <b>EXAMEN - 20%</b></button>
-    <div id="sem8" class="w3-container w3-hide">
-
-        <h4>Ce qu’il faut savoir faire :</h4>
-        <ul>
-            <li>
-                Créer un site WordPress de A à Z (base de données, etc.) à une adresse précise, par exemple :<br>
-                <a href="">https://utilisateur.dectim.ca/cours/wp/adresse/du/site</a>
-            </li>
-            <li>
-                Configurer des réglages du site
-            </li>
-            <li>
-                Entrer du contenu
-            </li>
-            <li>
-                Créer et activer un thème à partir de zéro, comprenant :
-                <ul>
-                    <li>des gabarits</li>
-                    <li>des fichiers d’inclusion</li>
-                    <li>du style CSS</li>
-                </ul>
-            </li>
-        </ul>
-
-    </div>
-
-    <button onclick="accordeon('sem9')" class="w3-button w3-block w3-left-align w3-dark-gray">Semaine 9 - CPT</button>
+    <button onclick="accordeon('sem9')" class="w3-button w3-block w3-left-align w3-light-blue">Semaine 7 - CPT</button>
     <div id="sem9" class="w3-container w3-hide">
 
         <div class="w3-panel w3-round w3-border">
@@ -337,7 +299,9 @@
 
     </div>
 
-    <button onclick="accordeon('sem10')" class="w3-button w3-block w3-left-align w3-dark-gray">Semaine 10 - Thème et CPT - version PHP</button>
+    <button class="w3-button w3-block w3-center w3-white w3-hover-white"><b>Semaine de lecture</b></button>
+
+    <!-- <button onclick="accordeon('sem10')" class="w3-button w3-block w3-left-align w3-dark-gray">Semaine 8 - Thème et CPT - version PHP</button>
     <div id="sem10" class="w3-container w3-hide">
 
         <div class="w3-panel w3-round w3-border">
@@ -369,9 +333,9 @@
             </div>
         </div>
 
-    </div>
+    </div> -->
 
-    <button onclick="accordeon('sem11')" class="w3-button w3-block w3-left-align w3-dark-gray">Semaine 11 - ACF - part I</button>
+    <button onclick="accordeon('sem11')" class="w3-button w3-block w3-left-align w3-lime">Semaine 8 - ACF - part I</button>
     <div id="sem11" class="w3-container w3-hide">
 
         <div class="w3-panel w3-round w3-border">
@@ -409,7 +373,7 @@
 
     </div>
 
-    <button onclick="accordeon('sem12')" class="w3-button w3-block w3-left-align w3-dark-gray">Semaine 12 - ACF - part II</button>
+    <button onclick="accordeon('sem12')" class="w3-button w3-block w3-left-align w3-lime">Semaine 9 - ACF - part II</button>
     <div id="sem12" class="w3-container w3-hide">
 
         <div class="w3-panel w3-round w3-border">
@@ -443,7 +407,7 @@
 
     </div>
 
-    <button onclick="accordeon('sem13')" class="w3-button w3-block w3-left-align w3-dark-gray">Semaine 13 - ACF - part III</button>
+    <button onclick="accordeon('sem13')" class="w3-button w3-block w3-left-align w3-lime">Semaine 10 - ACF - part III</button>
     <div id="sem13" class="w3-container w3-hide">
 
         <div class="w3-panel w3-round w3-border">
@@ -481,7 +445,67 @@
 
     </div>
 
-    <!-- <button onclick="accordeon('tp2')" class="w3-button w3-block w3-left-align w3-dark-gray"><b>TP 2 - 40% - remise 1 (10%) avant le 14 mai 2022 -  remise 2 (30%) avant le 30 mai 2022 </b></button>
+    <button onclick="accordeon('sem14')" class="w3-button w3-block w3-left-align w3-light-green">Semaine 11</button>
+    <div id="sem14" class="w3-container w3-hide">
+
+        <div class="w3-panel w3-round w3-border">
+            <div class="w3-container w3-cell w3-cell-middle">
+                <p><b>Théorie : </b></p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+                <a href="semaine_14/420-964-EM_semaine14_theorie.pdf" class="w3-button w3-blue w3-round" target="_blank">Théorie</a>
+            </div>
+        </div>
+
+    </div>
+
+    <button onclick="accordeon('sem8')" class="w3-button w3-block w3-left-align w3-light-green">Semaine 12 - <b>EXAMEN - 20%</b></button>
+    <div id="sem8" class="w3-container w3-hide">
+
+        <img src="examen_2/1.png" style="width:50%">
+        <img src="examen_2/2.png" style="width:50%">
+        <img src="examen_2/3.png" style="width:50%">
+        <img src="examen_2/4.png" style="width:50%">
+
+        <!-- <h4>Ce qu’il faut savoir faire :</h4>
+        <ul>
+            <li>
+                Créer un site WordPress de A à Z (base de données, etc.) à une adresse précise, par exemple :<br>
+                <a href="">https://utilisateur.dectim.ca/cours/wp/adresse/du/site</a>
+            </li>
+            <li>
+                Configurer des réglages du site
+            </li>
+            <li>
+                Entrer du contenu
+            </li>
+            <li>
+                Créer et activer un thème à partir de zéro, comprenant :
+                <ul>
+                    <li>des gabarits</li>
+                    <li>des fichiers d’inclusion</li>
+                    <li>du style CSS</li>
+                </ul>
+            </li>
+        </ul> -->
+
+    </div>
+
+    <button onclick="accordeon('sem14')" class="w3-button w3-block w3-left-align w3-green">Semaine 13 - Les étapes pour un bon TP 2</button>
+    <div id="sem14" class="w3-container w3-hide">
+
+        <div class="w3-panel w3-round w3-border">
+            <div class="w3-container w3-cell w3-cell-middle">
+                <p><b>Théorie : </b></p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+                <a href="semaine_14/420-964-EM_semaine14_theorie.pdf" class="w3-button w3-blue w3-round" target="_blank">Théorie</a>
+            </div>
+        </div>
+
+    </div>
+
+    <button onclick="accordeon('tp2')" class="w3-button w3-block w3-left-align w3-green w3-text-black">Semaine 14 - <b>Travail pratique - 30% - remise</b></button>
     <div id="tp2" class="w3-container w3-hide">
 
         <div class="w3-panel w3-round w3-border">
@@ -498,33 +522,9 @@
             </div>
         </div>
 
-    </div> -->
-
-    <button onclick="accordeon('sem14')" class="w3-button w3-block w3-left-align w3-dark-gray">Semaine 14 - Les étapes pour un bon TP 2</button>
-    <div id="sem14" class="w3-container w3-hide">
-
-        <div class="w3-panel w3-round w3-border">
-            <div class="w3-container w3-cell w3-cell-middle">
-                <p><b>Théorie : </b></p>
-            </div>
-            <div class="w3-container w3-cell w3-cell-middle">
-                <a href="semaine_14/420-964-EM_semaine14_theorie.pdf" class="w3-button w3-blue w3-round" target="_blank">Théorie</a>
-            </div>
-        </div>
-
     </div>
 
-    <!-- <button onclick="accordeon('ex2')" class="w3-button w3-block w3-left-align w3-dark-gray"><b>EXAMEN 2 - 20% - 19 mai 2022 à 12h00</b></button>
-    <div id="ex2" class="w3-container w3-hide">
-
-        <img src="examen_2/1.png" style="width:50%">
-        <img src="examen_2/2.png" style="width:50%">
-        <img src="examen_2/3.png" style="width:50%">
-        <img src="examen_2/4.png" style="width:50%">
-
-    </div> -->
-
-    <button onclick="accordeon('sem15')" class="w3-button w3-block w3-left-align w3-dark-gray">Semaine 15</button>
+    <button class="w3-button w3-block w3-left-align w3-green">Semaine 15</button>
     <!-- <div id="sem15" class="w3-container w3-hide">
     </div>
 
